@@ -1,0 +1,36 @@
+[build]
+    publish = "public"
+    command = "hugo --gc --minify --baseURL $URL"
+
+[context.production.environment]
+    HUGO_VERSION = "0.55.4"
+
+[[redirects]]
+  from = "https://sammmm.netlify.com/*"
+  to = "https://sammmm.netlify.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.sammmm.netlify.com.com/*"
+  to = "https://sammmm.netlify.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://sammmm.netlify.com.br/*"
+  to = "https://sammmm.netlify.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://sammmm.netlify.com.br/*"
+  to = "https://sammmm.netlify.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://sammmm.netlify.com/*"
+  to = "https://sammmm.netlify.com/:splat"
+  status = 301
+  force = true
